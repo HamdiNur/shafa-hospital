@@ -300,6 +300,7 @@ function Home() {
     </motion.div>
   </div>
 </section>
+//
   <section className="bg-slate-50 py-20">
   <div className="max-w-7xl mx-auto px-4">
     <div className="text-center mb-14">
