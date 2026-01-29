@@ -7,12 +7,17 @@ const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, tra
 function Services() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-20">
-      <div className="text-center mb-14">
-        <h1 className="text-4xl font-bold text-slate-900">Our Departments</h1>
-        <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-          Explore all of Shafa Hospital's medical departments and services.
-        </p>
-      </div>
+ <div className="text-center mb-14">
+  <span className="inline-block bg-sky-100 text-sky-700 text-sm font-medium px-4 py-1.5 rounded-full mb-4">
+    What We Offer
+  </span>
+  <h1 className="text-4xl font-bold text-slate-800">
+    Our <span className="text-sky-600">Departments</span>
+  </h1>
+  <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
+    Explore all of Shafa Hospital's medical departments and services.
+  </p>
+</div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
         {services.map((service) => (
